@@ -1,0 +1,20 @@
+{
+    "name": "iquxbyte/container-di",
+    "description": "Simple IoC container with some method: bind, singleton, resolve, make.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexz",
+            "email": "boytunghc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "IquxByte\\": "src/"
+        }
+    }
+}
